@@ -1,1 +1,23 @@
-/* Start coding here */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: linear-gradient(
+    45deg,
+    hsl(0, 100%, 70%),
+    hsl(240, 100%, 70%)
+  );
+  padding: 35%;
+}
+
+.box {
+  width: 500px;
+  height: 300px;
+  background-color: hsla(0, 50%, 100%, 0.5);
+  padding: 20px;
+}
